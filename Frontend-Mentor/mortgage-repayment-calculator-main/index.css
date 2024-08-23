@@ -1,0 +1,95 @@
+
+:root{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.main-container{
+    width: 100%;
+    padding: 150px 0;
+    background-color: hsl(202, 86%, 94%);
+}
+
+.sub-main-container{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #36596d;
+}
+
+
+
+.mortage-form{
+    width: 447px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* .placeholder-amount{
+    text-align: left;
+    
+}
+
+.placeholder-term{
+    text-align: right;
+  
+} */
+
+.mortage-container{ 
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-group{
+    padding: 10px,0;
+
+}
+
+.radio-group{
+    margin: 10px 0;
+    display: flex;
+    justify-content: column;
+    border: 1px solid #36596d;
+    border-radius: 5px;
+}
+
+.radio-input{
+    margin: 10px;
+    width: auto;
+    padding: 10px;
+}
+
+.radio-label{
+    margin: 10px;
+    
+}
+
+button{
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 60px;
+    border: 1px solid #36596d;
+    background-color:hsl(61, 70%, 52%);
+    color: white;
+}
+
+.mortage-results{
+    width: 447px;
+    background-color:#36596d;
+    padding: 20px;
+    border-radius: 10px;
+  
+}
